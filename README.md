@@ -28,9 +28,10 @@ docker pull santiagozurita26/my-php-app
 
 After pulling the image, run the Docker container using this command:
 
-
+docker run -p 8081:80 my-php-app
 
 4. Access the Application
 
 Once the container is running, you can access the application by navigating to the following URL in your web browser:
       
+http://localhost:8081
